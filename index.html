@@ -95,7 +95,17 @@ h1{font-weight:400;font-size:clamp(30px,5vw,48px);letter-spacing:.12em;margin:12
     <p class="muted">JSON配列で複数件を一度に登録できます。例：名前、数量、レア判定、画像URL、追加情報。</p>
     <label class="field">JSON<textarea id="bulkJson">[
   {"name":"ねずみのおもちゃ","count":3,"rare":false,"image":"item-images/mikeneko_mouse.svg","info":"お気に入りのおもちゃ"},
-  {"name":"お魚のおもちゃ","count":2,"rare":true,"image":"item-images/calico_cat_fish.svg","info":"レアアイテム"},
+  {"name":"じぃじ","count":3,"rare":true,"image":"item-images/No.png","info":"じぃじ1"},
+  {"name":"マグロの缶詰","count":5,"rare":true,"image":"item-images/No-tuna.png","info":"じぃじ2"},
+  {"name":"おいしい猫草","count":2,"rare":true,"image":"item-images/No-kusa.png","info":"じぃじ3"},
+  {"name":"海老のおもちゃ","count":5,"rare":true,"image":"item-images/No-ebi.png","info":"じぃじ4"},
+  {"name":"ダンボール芸","count":5,"rare":true,"image":"item-images/No-dan.png","info":"じぃじ5"},
+  {"name":"ちったいじぃじ","count":5,"rare":true,"image":"item-images/No-c.png","info":"じぃじ6"},
+  {"name":"あたりめ","count":5,"rare":true,"image":"item-images/No-at.png","info":"じぃじ7"},
+  {"name":"クマのおもちゃ","count":5,"rare":true,"image":"item-images/Ma-kuma.png","info":"まる1"},
+  {"name":"猫のヒゲ","count":2,"rare":true,"image":"item-images/Ma-hige.png","info":"まる2"},
+  {"name":"ちったいまる","count":5,"rare":true,"image":"item-images/Ma-c.png","info":"じぃじ5"},
+  {"name":"お魚のおもちゃ","count":5,"rare":true,"image":"item-images/calico_cat_fish.svg","info":"レアアイテム"},
   {"name":"ハズレ","count":5,"rare":false,"image":"item-images/calico_cat_hazure.svg","info":"また遊んでね"}
 ]</textarea></label>
     <div class="row" style="margin-top:10px"><button class="outline-btn" id="bulkAdd">JSONから追加</button><button class="outline-btn" id="exportData">設定・アイテムをJSON出力</button><label class="outline-btn" style="cursor:pointer">JSONを読み込む<input type="file" id="importData" accept=".json,application/json" hidden></label></div>
